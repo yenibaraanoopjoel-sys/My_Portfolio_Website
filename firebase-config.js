@@ -1,9 +1,9 @@
-// Replace these values with the Firebase Web App config from Project settings.
 export const firebaseConfig = {
-    apiKey: "PASTE_FIREBASE_API_KEY_HERE",
+    apiKey: "AIzaSyA26Bk8me_Jxc5Hl7XI92AmBqbIOSP6PUQ",
     authDomain: "my-portfolio-1f772.firebaseapp.com",
     projectId: "my-portfolio-1f772",
     storageBucket: "my-portfolio-1f772.firebasestorage.app",
-    messagingSenderId: "PASTE_FIREBASE_MESSAGING_SENDER_ID_HERE",
-    appId: "PASTE_FIREBASE_APP_ID_HERE"
+    messagingSenderId: "220568233957",
+    appId: "1:220568233957:web:172a8c5c14309a6585f10c",
+    measurementId: "G-JMD58B95CB"
 };
