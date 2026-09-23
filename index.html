@@ -102,11 +102,12 @@
         <section id="contact" class="section-space section-border" aria-labelledby="contact-title">
             <div class="container contact-grid">
                 <div class="contact-intro"><p class="eyebrow">04 / Contact</p><h2 id="contact-title">Let’s make something<br><span>worth building.</span></h2><p>I'm always interested in learning, collaborating, and working on interesting technology projects. Feel free to connect with me.</p><div class="contact-list"><div><span>Email</span><a href="mailto:your-email@example.com">your-email@example.com</a></div><div><span>GitHub</span><span>Profile link coming soon</span></div><div><span>LinkedIn</span><span>Profile link coming soon</span></div><div><span>Location</span><span>Tamil Nadu, India</span></div></div></div>
-                <form class="contact-form" action="#contact" method="post"><div class="form-row"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name" required></div><div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com" required></div><div class="form-row"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell me a little about your idea..." required></textarea></div><button class="button button-primary" type="submit">Send message <span aria-hidden="true">↗</span></button><p class="form-note">This form is a frontend demonstration and does not send messages yet.</p></form>
+                <form class="contact-form" id="contact-form"><div class="form-row"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required></div><div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div><div class="form-row"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell me a little about your idea..." required></textarea></div><button class="button button-primary" id="submit-button" type="submit">Send message <span aria-hidden="true">↗</span></button><p class="form-note" id="form-status" role="status" aria-live="polite">Messages are securely stored in Firebase Firestore.</p></form>
             </div>
         </section>
     </main>
 
     <footer class="site-footer"><div class="container footer-wrap"><p>© 2026 Anoop Joel. All Rights Reserved.</p><a href="#top">Back to top ↑</a></div></footer>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
